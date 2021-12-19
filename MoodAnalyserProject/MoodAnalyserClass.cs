@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MoodAnalyserProject
 {
-    internal class MoodAnalyserClass
+    public class MoodAnalyserClass
     {
         private string message;
         public MoodAnalyserClass(string message)
