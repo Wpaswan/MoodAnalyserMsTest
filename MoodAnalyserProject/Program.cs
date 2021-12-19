@@ -1,8 +1,10 @@
-﻿public class Mood
+﻿using MoodAnalyserProject;
+
+public class Mood
 {
     static void Main(string[] args)
     {
-
+        MoodAnalyserClass obj = new MoodAnalyserClass("sad");
     }
 
     public string AnalyzeMood(String Message)
