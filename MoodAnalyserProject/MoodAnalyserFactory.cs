@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace MoodAnalyserProject
 {
-    internal class MoodAnalyserFactory
+    public class MoodAnalyserFactory
     {
         private string message;
         public MoodAnalyserFactory(string message)
