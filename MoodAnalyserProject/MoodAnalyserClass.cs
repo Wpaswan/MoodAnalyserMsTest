@@ -22,6 +22,7 @@ namespace MoodAnalyserProject
             //string s = null;
 
             //string abc = "";
+            //Uc3 informUser if is null mood
             try
             {   //"null"==""
                 if (this.message.Equals(string.Empty))
